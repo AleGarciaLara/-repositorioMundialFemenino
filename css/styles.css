@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', sans-serif;
+    list-style: none;
+}
+/* COLORES 
+persian green --> #1B998B
+space cadet --> #2D3047
+icterine --> #FFFD82
+atomic tangerine --> #FF9B71
+
+/* HEADER */
+header{
+    height: 100px;
+    background-color: black;
+    position:sticky;
+    top: 0px;
+    height: 110px;
+}
+li{
+    list-style: none;
+    padding: 40px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+/* pseudoclases para HEADER */
+a:hover{
+    color:#FF9B71;
+    font-size:2.3rem;
+    font-style: bold;
+}
+
+/* main */
+main{
+    background-color: #1B998B;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 50px;
+} 
+.logoContainer{
+    width: 251px;
+    height: 96px;
+}
+.logo{
+    width:100%;
+    height: 100%;
+    align-items: left;
+}
+.mundial23{
+    display: flex;
+    justify-content: space-between;
+}
+.texto_mundial2023{
+    width: 700px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+.fotoContainer{
+    width:650px;
+    height: 500px;
+}
+.foto{
+    width: 100%;
+    height: 100%;
+}
+.ausNz{
+    margin-top: 50px;
+    display: flex;
+}
+/* jugadoras a seguir */
+
+.jugadorasSection{
+    background-color:#FF9B71;
+    padding: 100px;
+}
+.jugadoras{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+.jugadoras_img{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#FF9B71;
+}
+.separacion1{
+    display: flex;
+    justify-content: center;
+}
+.separacion2{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.lindaContainer{
+    width: 350px;
+    height: 210px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+}
+.linda{
+    width: 100%;
+    height: 100%;
+}
+.martaContainer{
+    width: 350px;
+    height: 210px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+}
+.marta{
+    width: 100%;
+    height: 100%;
+}
+.alexiaContainer{
+    width: 350px;
+    height: 210px;
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+}
+.alexia{
+    width: 100%;
+    height: 100%;
+}
+.samContainer{
+    width: 350px;
+    height: 210px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+}
+.sam{
+    width: 100%;
+    height: 100%;
+}
+.alexaContainer{
+    width: 350px;
+    height: 210px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+}
+.alexa{
+    width: 100%;
+    height: 100%;
+}
+.lucyContainer{
+    width: 350px;
+    height: 210px;
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+}
+.lucy{
+    width: 100%;
+    height: 100%;
+}
+/* footer */
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    height: 140px;
+    display:flexbox;
+}
+footer ul{
+    justify-content: center;
+}
+.containerRedes{
+    height: 30px;
+    width: 30px;
+    display:flex;
+}
+.img_logo{
+    height: 30px;
+    width: 30px;
+
+}
+.copyright{
+    padding-left: 639px;
+    margin-top: 100px;
+}
+
+/* estilos SEDES */
+
+/* main SEDES */
+.mainSedes{
+    margin-top: 0px;
+    background-color: whitesmoke;
+}
+.h1Sedes{
+    padding: 30px;
+}
+/* main GRUPOS */
+.mainGrupos{
+    margin-top: 100px;
+    top: 100px;
+    height: 500px;
+}
+/* main HISTORIA */
+.mainHistoria{
+    margin-top: 100px;
+    top: 100px;
+    height: 500px;
+}
+/* main PARTIDOS */
+.mainPartidos{
+    margin-top: 100px;
+    top: 100px;
+    height: 500px;
+}
