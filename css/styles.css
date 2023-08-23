@@ -216,6 +216,7 @@ footer ul{
     margin-top: 100px;
 }
 
+
 /* estilos SEDES */
 
 /* main SEDES */
@@ -232,12 +233,19 @@ footer ul{
     top: 100px;
     height: 500px;
 }
-/* main HISTORIA */
-.mainHistoria{
-    margin-top: 100px;
+
+/* estilos Jugadoras destacadas */
+/* main Jugadoras destacadas */
+.mainJugadoras {
     top: 100px;
-    height: 500px;
+    height: 900px;
+    background-color: whitesmoke;
 }
+.card { 
+    padding:30px;
+}
+
+
 /* main PARTIDOS */
 .mainPartidos{
     margin-top: 100px;
