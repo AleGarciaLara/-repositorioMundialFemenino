@@ -14,6 +14,13 @@ space cadet --> #2D3047
 icterine --> #FFFD82
 atomic tangerine --> #FF9B71
 
+/* Bootstrap */
+.nav-item{
+    font-size: 25px; 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
 /* HEADER */
 header{
     height: 100px;
