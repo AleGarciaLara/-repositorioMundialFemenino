@@ -19,11 +19,8 @@ atomic tangerine --> #FF9B71
     font-size: 25px; 
     font-family: 'Bebas Neue', sans-serif;
 }
-
-
 /* HEADER */
 header{
-    height: 100px;
     background-color: black;
     position:sticky;
     top: 0px;
