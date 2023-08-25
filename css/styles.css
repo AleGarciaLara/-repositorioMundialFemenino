@@ -240,19 +240,25 @@ footer ul{
 /* main Jugadoras destacadas */
 .mainJugadoras {
     top: 100px;
-    height: 900px;
+    height: auto;
     background-color: whitesmoke;
 }
 .card { 
-    padding:30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 0px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.card:hover{ 
+    transition: .3s;
+    transform: scale(1.2);
 }
 
 
 /* main PARTIDOS */
-.mainPartidos{
+.mainMomentos{
 background-color: whitesmoke;
-height: 900px;
-}
-.container-md { 
-    padding: 100px;
+height: auto;
+margin-top: 100px;
 }
