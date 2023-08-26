@@ -124,7 +124,13 @@ main{
     .container-fluid{
         padding: 35px;
     }
-    
+
+/* estilos Posiciones */
+.mainPosiciones{
+    height: auto;
+}
+
+
 /* estilos SEDES */
 
 .mainSedes{
