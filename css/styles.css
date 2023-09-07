@@ -1,150 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar {
+  background-color: black;
 }
-html{
-    font-size: 62.5%;
-    font-family: 'Bebas Neue', sans-serif;
-    list-style: none;
-}
-/* COLORES 
-persian green --> #1B998B
-space cadet --> #2D3047
-icterine --> #FFFD82
-atomic tangerine --> #FF9B71
-
-/* Bootstrap */
-
-/* HEADER */
-.nav-item{
-    font-size: 25px; 
-    font-family: 'Bebas Neue', sans-serif;
-    color: whitesmoke;
-}
-header{
-    background-color: black;
-    position:sticky;
-    top: 0px;
-    height: 110px;
-}
-li{
-    list-style: none;
-    padding: 40px;
-}
-a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 2rem;
-}
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-} 
-
-/* pseudoclases para HEADER */
-a:hover{
-    font-size:3rem;
-    transition: .2s;
+.navbar .navbar-nav .nav_item {
+  font-family: "Archivo Black", sans-serif;
 }
 
-/* footer */
-footer{
-    background-color: rgba(37, 35, 35, 0.888);
-    color: whitesmoke;
-    bottom: 0;
-    left: 0;
-    height: 120px;
-    display:flexbox;
+footer {
+  background-color: black;
+  height: 143px;
 }
-footer ul{
-    justify-content: center;
+footer .ulFooter {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-left: 20px;
+  font-size: 1.5rem;
 }
-.containerRedes{
-    height: 30px;
-    width: 30px;
-    display:flex;
-}
-.img_logo{
-    height: 30px;
-    width: 30px;
-
-}
-.copyright{
-    padding-left: 639px;
-    margin-top: 100px;
-}
-/* estilos Inicio*/
-main{
-    background-color: whitesmoke;
-    top: 0px;
-    bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+footer .copyright {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 62.5%;
 }
 
-.estadisticas{
-    font-size: 4rem;
-    font-family: 'Archivo Black', sans-serif;;
-    padding: 50px;
-}
-
-
-
-/* estilos Jugadoras destacadas */
-.mainJugadoras {
-    top: 100px;
-    height: auto;
-    background-color: whitesmoke;
-}
-.card { 
-    margin-right: 50px;
-    margin-left: 50px;
-    padding: 0px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-.card:hover{ 
-    transition: .3s;
-    transform: scale(1.2);
-}
-
-/* estilos Momentos */
-.mainMomentos{
-    background-color: whitesmoke;
-    height: auto;
-    }
-    .pMomentos{
-        text-align: center;
-        font-size: 1.5rem;
-        font-family: 'Inter', sans-serif;
-        padding-bottom: 20px;
-    }
-    .container-fluid{
-        padding: 35px;
-    }
-
-/* estilos Posiciones */
-.mainPosiciones{
-    height: auto;
-}
-
-
-/* estilos SEDES */
-
-.mainSedes{
-    background-color: whitesmoke;
-    margin-top: none;
-}
-.textoSedes{
-    padding: 30px;
-    font-size: 20px;
-    font-family: 'Archivo Black', sans-serif;
-}
-
-
-
-
-
-
+/*# sourceMappingURL=styles.css.map */
