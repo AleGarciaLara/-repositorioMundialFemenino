@@ -43,6 +43,10 @@ footer .copyright {
   font-size: 62.5%;
 }
 
+html {
+  height: fit-content;
+}
+
 main .row {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -83,6 +87,33 @@ main .row {
 .mainJugadoras .card p {
   font-size: 1rem;
   font-family: "Inter", sans-serif;
+}
+
+h2 {
+  padding-top: 40px;
+  font-family: "Play", sans-serif;
+  font-size: 40px;
+}
+@media (max-width: 999px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.col {
+  display: center;
+}
+.col .pMomentos {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.textoSedes {
+  padding: 10px;
+}
+
+.card mb-3 {
+  width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,16 @@
+h2{
+    padding-top: 40px;
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    @media(max-width:999px){
+        font-size:20px; 
+    }
+}
+.col{
+    display:center;
+    .pMomentos{
+        padding:15px;
+        font-size: 15px;
+    }
+}
+
