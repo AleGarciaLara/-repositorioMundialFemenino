@@ -116,4 +116,24 @@ h2 {
   width: 100px;
 }
 
+h5 {
+  font-family: "Play", sans-serif;
+  font-size: 1.5rem;
+}
+@media (max-width: 999px) {
+  h5 {
+    font-size: 17px;
+  }
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+@media (max-width: 999px) {
+  p {
+    font-size: 13px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
