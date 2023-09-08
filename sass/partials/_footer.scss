@@ -1,19 +1,16 @@
 footer{
-    background-color: black;
-    height: 143px;
+    background-color: #2b3036;
+    height: 170px;
         .ulFooter{
             list-style: none;
             display: flex;
             justify-content: center;
-            padding: 30px;
-            padding-left: 20px;
             font-size: 1.5rem;
         }
         .copyright{
             display: flex;
             color: white;
             justify-content: center;
-            padding-bottom: 15px;
             font-size: 62.5%;
         }
 }

@@ -1,0 +1,16 @@
+main{
+    .row{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.estadisticas{
+        padding:50px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-family: 'Play', sans-serif;
+        @media(max-width:999px){
+            font-size:20px; 
+        }
+    }
