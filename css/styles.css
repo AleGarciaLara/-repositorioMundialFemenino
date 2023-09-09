@@ -108,7 +108,7 @@ main .row {
   transition: 0.3s;
   transform: scale(1.3);
 }
-.mainJugadoras .card h5 {
+.mainJugadoras .card h2 {
   font-size: 1.5rem;
   font-family: "Bebas Neue", sans-serif;
 }
