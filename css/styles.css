@@ -46,11 +46,16 @@ footer .copyright {
 
 html {
   height: fit-content;
+  overflow-x: hidden;
 }
 
 main .row {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+button {
+  cursor: url(/img/cursor.png), auto;
 }
 
 .estadisticas {
@@ -65,7 +70,6 @@ main .row {
   animation-delay: 1s;
 }
 .estadisticas:hover {
-  transform: scale(1, 2);
   transform: rotate3d(1, -5, 1, -40deg);
   cursor: url(/img/cursor.png), auto;
 }
@@ -158,10 +162,6 @@ p {
   p {
     font-size: 13px;
   }
-}
-
-body {
-  cursor: url(/img/Pointerchiquito.png), auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

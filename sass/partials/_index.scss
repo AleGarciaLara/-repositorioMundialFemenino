@@ -1,11 +1,16 @@
 html{
-    height:fit-content
+    height:fit-content;
+    overflow-x: hidden;
+    
 }
 main{
     .row{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+}
+button{
+    cursor: url(/img/cursor.png), auto;
 }
 .estadisticas{
         padding:50px;
@@ -18,7 +23,6 @@ main{
         animation-iteration-count: infinite;
         animation-delay: 1s;
         &:hover{
-            transform: scale(1,2);
             transform: rotate3d(1, -5, 1, -40deg);
             cursor: url(/img/cursor.png), auto;
         }
