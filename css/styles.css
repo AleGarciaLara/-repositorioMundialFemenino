@@ -47,6 +47,7 @@ footer .copyright {
 html {
   height: fit-content;
   overflow-x: hidden;
+  cursor: url(/img/Pointerchiquito.png), auto;
 }
 
 main .row {
