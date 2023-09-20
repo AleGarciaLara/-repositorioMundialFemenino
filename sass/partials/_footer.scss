@@ -1,12 +1,19 @@
 footer{
     background-color: #2b3036;
     height: 170px;
+
         .ulFooter{
             list-style: none;
             display: flex;
             justify-content: center;
             font-size: 1.5rem;
         }
+            .containerRedes{
+                padding:10px;   
+                width: auto;    
+            }
+
+
         .copyright{
             display: flex;
             color: white;

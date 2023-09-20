@@ -2,6 +2,7 @@
   font-size: 25px;
   font-family: "Bebas Neue", sans-serif;
   color: whitesmoke;
+  width: auto;
 }
 
 li {
@@ -37,6 +38,10 @@ footer .ulFooter {
   justify-content: center;
   font-size: 1.5rem;
 }
+footer .containerRedes {
+  padding: 10px;
+  width: auto;
+}
 footer .copyright {
   display: flex;
   color: white;
@@ -48,6 +53,7 @@ html {
   height: fit-content;
   overflow-x: hidden;
   cursor: url(/img/Pointerchiquito.png), auto;
+  width: fit-content;
 }
 
 main .row {
@@ -103,15 +109,15 @@ button {
   background-color: whitesmoke;
 }
 .mainJugadoras .card {
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 45px;
+  margin-left: 45px;
   padding: 0px;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .mainJugadoras .card:hover {
   transition: 0.3s;
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .mainJugadoras .card h2 {
   font-size: 1.5rem;
