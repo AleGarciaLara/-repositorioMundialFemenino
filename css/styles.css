@@ -2,7 +2,6 @@
   font-size: 25px;
   font-family: "Bebas Neue", sans-serif;
   color: whitesmoke;
-  width: auto;
 }
 
 li {
@@ -54,6 +53,9 @@ html {
   overflow-x: hidden;
   cursor: url(/img/Pointerchiquito.png), auto;
   width: fit-content;
+}
+html body {
+  width: 100%;
 }
 
 main .row {
@@ -148,7 +150,11 @@ h2 {
 }
 
 .textoSedes {
-  padding: 10px;
+  padding: 25px;
+}
+
+.mainSedes {
+  display: block;
 }
 
 h5 {
